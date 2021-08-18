@@ -32,5 +32,3 @@ API_ID = getenv("API_ID")
 API_HASH = getenv("API_HASH")
 BIO_MESSAGE = getenv("BIO")
 SUDO = list(map(int, getenv("SUDO").split()))
-TMP_DOWNLOAD_DIRECTORY = os.environ.get(
-            "TMP_DOWNLOAD_DIRECTORY", "./DOWNLOADS/")
